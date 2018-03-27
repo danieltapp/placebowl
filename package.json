@@ -4,6 +4,7 @@
   "description": "'The Yelp of breakfast cereals!'",
   "main": "index.js",
   "scripts": {
+    "start": "react-scripts start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/danieltapp/placebowl/issues"
   },
-  "homepage": "https://github.com/danieltapp/placebowl#readme"
+  "homepage": "https://github.com/danieltapp/placebowl#readme",
+  "dependencies": {
+    "material-ui": "^0.20.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "^1.1.1"
+  }
 }

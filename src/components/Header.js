@@ -4,7 +4,7 @@ import React from 'react';
 
 const Header = () => (
     <div>
-    <h1>placeBowl</h1>
+    <h1>placebowl</h1>
     </div>
 )
 

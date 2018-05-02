@@ -1,0 +1,21 @@
+V1 (target completion 5/28)
+
+-Create a splash page with a search input.
+	-header
+		-Title 
+		-logo(?)	
+	-image of various cereals in a bowl w/ text overlay giving simple description of site
+	-a search input
+	-footer
+		-contact (email)
+		-date
+		-twitter(?)
+
+-Create a template cereal card
+	-name
+	-image
+	-spoons
+	-year (optional)
+	-review
+
+-Generate some dummy JSON to test cereal card creation.

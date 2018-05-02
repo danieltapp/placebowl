@@ -1,5 +1,7 @@
 import React from 'react';
-import {render} from 'react-dom';
-import App from './components/App';
+import ReactDOM from 'react-dom';
+import App from './components/App'
 
-render(< App/>, document.querySelector('#app'));
+
+const tester =  <p>fart</p>;
+ReactDOM.render(<App/>, document.querySelector('#app'));

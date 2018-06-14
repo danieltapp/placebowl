@@ -9,7 +9,7 @@ module.exports = {
     path: path.join(__dirname, "public"),
     filename: "bundle.js"
   },
-  mode : 'development',
+  mode: "development",
   module: {
     rules: [
       {
@@ -18,7 +18,11 @@ module.exports = {
         exclude: /node_modules/
       }
     ]
-  }
+  },
+  devServer: {
+    contentBase: path.join(__dirname, "public")
+  },
+  devtool: "cheap-module-eval-source-map"
 };
 
 //loader

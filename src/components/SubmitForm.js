@@ -5,7 +5,7 @@ class SubmitForm extends React.Component {
         return (
             <form>
             <label>How many 🥄?
-            <input type="number"></input>
+            <input type="number" min="0" max="5"></input>
             </label>
             <label>
             <textarea name="review" /></label>

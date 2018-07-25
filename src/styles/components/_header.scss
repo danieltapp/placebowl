@@ -1,0 +1,19 @@
+.header {
+    background: $red;
+    font-family: $baloo;
+    margin-bottom: $l-size;
+    padding: $m-size 0;
+}
+
+.header__title {
+    font-size: $l-size;
+    margin : 0;
+    color: $yellow;
+}
+
+.header__subtitle {
+    font-size: $m-size;
+    font-weight : 700;
+    margin: 0;
+    color : $blue;
+}

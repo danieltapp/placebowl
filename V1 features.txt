@@ -1,4 +1,4 @@
-V1 (target completion 5/28)
+V1 (target completion 7/31)
 
 -Create a splash page with a search input.
 	-header
@@ -19,3 +19,5 @@ V1 (target completion 5/28)
 	-review
 
 -Generate some dummy JSON to test cereal card creation.
+
+*

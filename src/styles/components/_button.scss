@@ -1,0 +1,10 @@
+.button {
+   background: darken($red, 10%);
+   border : none;
+   border-bottom: .3rem solid $red;
+   color: lighten($yellow, 15%);
+   font-weight: 500;
+   padding: $s-size;
+   margin-bottom: $l-size;
+}
+

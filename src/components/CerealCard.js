@@ -4,7 +4,8 @@ import SubmitForm from './SubmitForm';
 class CerealCard extends React.Component {
   state = {
     cerealName: "Blueberry Pancake Crunch",
-    cerealImage: "https://i.ebayimg.com/images/g/mAAAAOSw2k5bKY2n/s-l1600.jpg",
+    cerealImage:
+      "https://firebasestorage.googleapis.com/v0/b/placebowl-f7a12.appspot.com/o/bbpancakecrunch.jpg?alt=media&token=d1c671cb-45bb-4d0e-9158-d898f7ce327b",
     cerealRating: "🥄🥄🥄🥄🥄",
     cerealYear: 2018,
     cerealReview:

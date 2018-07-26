@@ -4,6 +4,7 @@ import SubmitForm from './SubmitForm';
 import CerealCard from './CerealCard';
 import '../styles/styles.scss';
 import 'normalize.css/normalize.css';
+import Search from './Search';
 
 
 
@@ -12,6 +13,7 @@ class App extends React.Component {
         return (
            <div>
            <Header />
+           <Search />
            <CerealCard />
            <SubmitForm />
            </div>
